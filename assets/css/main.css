@@ -2646,6 +2646,25 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.carousel {
+			display: flex;
+			margin: 4rem 0;
+			aspect-ratio: 2 / 1;
+			width: 100%;
+			justify-content: center;
+			background-color: rgba(220, 220, 220, 0.25);
+		}
+
+			.image.carousel img {
+				display: none;
+				margin-top: 0;
+				max-width: 100%;
+			}
+
+			.image.carousel img.active {
+				display: block;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
