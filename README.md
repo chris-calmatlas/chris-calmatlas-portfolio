@@ -12,8 +12,8 @@ Portfolio created with Massively template from html5up.net | @ajlkn
 - [ ] Verify all 5 "Full story" links work on homepage
 
 ### about
-- [ ] Add photo
-- [ ] Add bio
+- [x] Add photo
+- [x] Add bio
 
 ### contact
 - [ ] Make contact form functional
